@@ -61,3 +61,27 @@ addUser(user)
 }
 let user1 =new users;
 console.log(user1.addUser('pandit'))
+class pandit{
+
+     private name="";
+    setname(name){
+        this.name=name;
+        this.displayname();
+
+    }
+    private displayname()
+    {
+        console.log(this.name);
+    }
+}
+const u1=new pandit;
+u1.setname("pandit loves to eat  sckjgsajsa") ;
+//this.name ="sahsakhsakjsahsa"; private cannot be modified 
+
+// constructors 
+class abc{
+    constructors(){
+        console.log("constructor called")
+    }
+}
+const u2=new abc();
